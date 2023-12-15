@@ -1,0 +1,16 @@
+footer {
+  background-color: #ffffff;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  min-height: 4vh;
+  max-height: 10vh;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  padding: 0.25rem 0rem;
+  width: 100%;
+  justify-content: center;
+}

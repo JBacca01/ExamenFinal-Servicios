@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+@import "primeflex/primeflex.css";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to bottom right, #501a1a, #000000);
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+
+app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+app-login {
+  display: flex;
+  margin: auto 0;
+  align-items: center;
+  justify-content: center;
+}
+
+app-register {
+  display: flex;
+  margin: auto 0;
+  align-items: center;
+  justify-content: center;
+}
+
+app-footer {
+  margin-top: auto;
+}

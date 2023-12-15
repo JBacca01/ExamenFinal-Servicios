@@ -1,0 +1,33 @@
+@media (max-width: 767px) {
+  p-card{
+    width: 85%;
+  }
+}
+
+#entra-link {
+  color: #ffffff;
+  background-color: #0a48f4;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 10px; /* Añade un radio de esquinas para suavizar los bordes */
+  transition: background-color 0.3s, color 0.3s, transform 0.5s;
+}
+
+#entra-link:hover {
+  background-color: #bbff00;
+  color: #000000;
+  transform: rotate(20deg);
+  animation: neon 1s infinite alternate;
+}
+
+@keyframes neon {
+  0% {
+    border-color: transparent;
+    box-shadow: 0 0 5px #f47b0a;
+  }
+  100% {
+    border-color: #00ff00;
+    box-shadow: 0 0 15px #00ff00, 0 0 30px #00ff00;
+  }
+}
